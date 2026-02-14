@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Valentine's ❤️</title>
+
+<style>
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#ffe6f0,#ffd6e7);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+/* MAIN CARD */
+.container{
+    background:white;
+    width:100%;
+    max-width:700px;
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* TEXT */
+h1{
+    color:#ff3b7a;
+    margin-bottom:15px;
+}
+
+h2{
+    margin-top:25px;
+    margin-bottom:10px;
+    color:#333;
+}
+
+p{
+    color:#555;
+    line-height:1.6;
+    margin-bottom:15px;
+}
+
+/* IMAGE */
+img{
+    width:100%;
+    max-width:300px;
+    border-radius:12px;
+    margin:10px auto;
+    display:block;
+}
+
+/* BUTTON */
+button{
+    background:#ff3b7a;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+/* MOBILE IMPROVEMENTS */
+@media (max-width:500px){
+    .container{
+        padding:20px;
+    }
+
+    h1{
+        font-size:22px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Happy Valentine's Day ❤️</h1>
+
+<p>
+Hi love, even if we are far from each other, I wanted to create something
+just for you. This little page is a reminder of how special you are to me.
+</p>
+
+<h2>Our Memories</h2>
+
+<!-- replace photo.jpg with your image file -->
+<img src="photo.jpg" alt="Our photo">
+
+<p>
+Thank you for being my comfort, my happiness, and my favorite person.
+</p>
+
+<h2>I want to ask you something...</h2>
+
+<p>
+Will you continue making more memories with me? ❤️
+</p>
+
+<button onclick="showMessage()">Click me</button>
+
+</div>
+
+<script>
+function showMessage(){
+    alert("I love you ❤️");
+}
+</script>
+
+</body>
+</html>
